@@ -16,16 +16,18 @@
  */
 
 public class Main {
-    public static void main(String[] args) {
     //Задание 2
-        byte a1=120; // целое число от -128 до 127
-        short b1=11457; // целое число от -32768 до 32767
-        int  c1=2000000; // целое число
-        long d1=1234567890L; // целое число
-        float e1=3.14f; // число с плавающей точкой
-        double f1=12.3; // число с плавающей точкой
-        char g1='o'; // один символ
-        boolean  h=true; // false
+    byte a1=120; // целое число от -128 до 127
+    short b1=11457; // целое число от -32768 до 32767
+    int  c1=2000000; // целое число
+    long d1=1234567890L; // целое число
+    float e1=3.14f; // число с плавающей точкой
+    double f1=12.3; // число с плавающей точкой
+    char g1='o'; // один символ
+    boolean  h=true; // false
+
+    public static void main(String[] args) {
+
 
         System.out.println("Ответ на задание 3 =" + isFloat(2.5f,3.9f,6.8f,0.5f));
 
@@ -59,7 +61,6 @@ public class Main {
 
     //Задание 5
     public static void whole(int a) {
-        a = 6;
         if (a >= 0) {
             System.out.println("Ответ на задание 5 -Число положительное");
         } else {
@@ -69,7 +70,6 @@ public class Main {
 
     // Задание 6
     public static boolean whole1(int a) {
-        a = 6;
         if (a >= 0) {
             return false;
         } else {
@@ -83,7 +83,6 @@ public class Main {
     }
 
     public static void Year(int year) {
-        year=2020;
         if (year % 100 == 0 && year % 4 == 0 || year % 400 == 0) {
             System.out.println(year + " год не високосный");
         } else
