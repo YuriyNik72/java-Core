@@ -14,8 +14,9 @@
   </properties>
 
   <modules>
-    <module>introduction</module>
-    <module>basic-Structures</module>
+    <module>_01-introduction</module>
+    <module>_02-basic-Structures</module>
+    <module>_03-practice</module>
   </modules>
 
 
